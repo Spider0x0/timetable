@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>timetable | Home </title>
+    <style>
+        body{
+            background-color: rgb(230, 221, 221);
+        }
+        table {
+          font-family: arial, sans-serif;
+          border-collapse: collapse;
+          width: 100%;
+          margin-bottom: 100px;
+          border: 1px solid #000;
+        }
+        th{
+            background-color: black;
+            color: white;
+            border: 2px white solid;
+        }
+        td, th {
+          text-align: center;
+          padding: 8px;
+          border: 3px solid black;
+        }
+        .item{
+            background-color: aliceblue;
+        }
+        .item:hover{
+            color: white;
+            background-color: black;
+            transform: scale(1.1);
+        }
+        a:hover{
+            color: white;
+        }
+        a{
+            text-decoration: none;
+            color: black;
+            padding:5px;
+            border-radius: 10px;
+            cursor: pointer;
+        }
+        @media (max-width:620px) {
+            table{
+                width: 100%;
+                font-size: 10px;
+            }  
+            a{
+                padding: 0px;
+            }
+
+        }
+        </style>
+</head>
+<body dir="rtl">
+    <div class="container">
+        <h3 style="text-align: center; font-size: 30px;">جدول المذاكرة </h3>
+        <table>
+            <tr>
+              <th>السبت</th>
+              <th>الاحد</th>
+              <th>الاثنين</th>
+              <th>الثلاثاء</th>
+              <th>الاربعاء</th>
+              <th>الخميس</th>
+              <th>الجمعة</th>
+            </tr>
+
+            <tr>
+              <td>رياضة بحتة</td>
+              <td>احياء</td>
+              <td>كيمياء</td>
+              <td>رياضة بحتة</td>
+              <td>احياء</td>
+              <td>كيمياء</td>
+              <td>انجليزي</td>
+            </tr>
+            <tr>
+              <td>فيزياء</td>
+              <td>عربي</td>
+              <td>رياضة تطبيقية</td>
+              <td>فيزياء</td>
+              <td>عربي</td>
+              <td>رياضة تطبيقية</td>
+              <td>رياضة بحتة</td>
+
+            </tr>
+            <tr>
+              <td>لغة تانية</td>
+              <td>انجليزي</td>
+              <td></td>
+              <td>لغة تانية</td>
+              <td>انجليزي</td>
+              <td></td>
+              <td></td>
+            </tr>    
+        </table>
+        <h3 style="text-align: center; font-size: 30px;"> افضل المدرسين </h3>
+
+        <table>
+            <tr>
+                <th>عربي</th>
+                <th>انجليزي</th>
+                <th>رياضة بحتة</th>
+                <th>رياضة تطبيقية</th>
+                <th>فيزياء</th>
+                <th>كيمياء</th>
+                <th> لغة تانية </th>
+                <th>احياء</th>
+            </tr>
+            <tr>
+                <td class="item"><a href="https://www.youtube.com/@mohamedsalah.bassthalk">محمد صلاح</a></td>
+                <td class="item"><a href="https://www.youtube.com/@amroragab">عمرو رجب</a></td>
+                <td class="item"><a href="https://www.youtube.com/@-mrlotfyzahran4469">لطفي زهران</a></td>
+                <td class="item"><a href="https://www.youtube.com/@-mrlotfyzahran4469">لطفي زهران</a></td>
+                <td class="item"><a href="https://www.youtube.com/@AhmedAbuArab">احمد ابو العرب</a></td>
+                <td class="item"><a href="https://www.youtube.com/@khaledsakr8181">خالد صقر</a></td>
+                <td class="item"><a href="">فراغ</a></td>
+                <td class="item"><a href="https://www.youtube.com/@Mohamed_Saleh_">الموسوعة</a></td>
+            </tr>
+            <tr>
+                <td class="item"><a target="_blank" href="https://www.youtube.com/@abdullahalshahawy">عبدالله الشهماوي</a></td>
+                <td class="item"><a target="_blank" href="https://www.youtube.com/@mr-englishawy">انجلشاوي</a></td>
+                <td class="item"><a target="_blank" href="https://www.youtube.com/@Ahmed-fawakhr">احمد الفواخري</a></td>
+                <td class="item"><a target="_blank" href="https://www.youtube.com/@Ahmed-fawakhr">احمد الفواخري</a></td>
+                <td class="item"><a target="_blank" href="https://www.youtube.com/@HKhPhysics">حسام خليل</a></td>
+                <td class="item"><a target="_blank" href="https://www.youtube.com/@MahmoudAbdo">علمني كيمياء</a></td>
+                <td class="item"><a target="_blank" href="">فراغ</a></td>
+                <td class="item"><a target="_blank" href="https://www.youtube.com/@DrMohamedAyman">محمد ايمن</a></td>
+            </tr>
+        </table>
+    </div>
+</body>
+</html>
